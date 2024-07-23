@@ -1,0 +1,602 @@
+@import "constant.scss";
+
+.main-div {
+  background-color: #070a22;
+}
+
+.header {
+  font-size: $fs-40;
+  width: 100vw;
+  height: 107px;
+  top: -9px;
+  left: -17px;
+  gap: 0px;
+  opacity: 0px;
+  padding: 0% 5% 0% 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-header {
+  width: 100vw;
+  height: 50px;
+  top: 26px;
+  left: 93px;
+  gap: 0px;
+  opacity: 0px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo-div {
+  width: 50%;
+  height: 30px;
+  top: 33px;
+  left: 93px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.logo-div > h4 {
+  font-family: DM Sans;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+
+.option-outer-div {
+  width: 50%;
+  padding-left: 70px;
+}
+
+.options-div {
+  width: 384px;
+  height: 23px;
+  top: 40px;
+  left: 676px;
+  gap: 0px;
+  opacity: 0px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.options-div > p {
+  margin: 0;
+  font-size: 20px;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23.44px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+
+.profile-div {
+  width: Fixed (203px) px;
+  height: Fixed (50px) px;
+  top: 26px;
+  left: 1135px;
+  padding: 12px 30px 12px 30px;
+  gap: 10px;
+  opacity: 0px;
+}
+
+.profile-div > p {
+  margin: 0;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+
+  color: rgba(255, 255, 255, 1);
+}
+
+.main-body-1 {
+  height: 600px;
+  width: 100vw;
+}
+.main-body-div1 {
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-body-div2 {
+  height: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-div {
+  width: 1174px;
+  height: 194px;
+  top: 229px;
+  left: 133px;
+  gap: 0px;
+  opacity: 0px;
+
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+.get-started {
+  width: Fixed (225px) px;
+  height: Fixed (55px) px;
+  top: 368px;
+  left: 608px;
+  padding: 12px 30px 12px 30px;
+  gap: 10px;
+  opacity: 0px;
+  border-radius: 8px;
+  text-align: center;
+  background: rgba(26, 115, 232, 1);
+}
+
+.get-started > p {
+  margin: 0;
+  font-family: DM Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+
+.header-div > h3 {
+  font-family: DM Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 51.86px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+
+.header-div > h4 {
+  font-family: DM Sans;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28.53px;
+  text-align: center;
+  color: rgba(236, 244, 255, 0.6);
+}
+
+.img-div {
+  padding-top: 250px;
+  width: 900px;
+  height: 300px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.full-moon {
+  height: 600px;
+  width: 900px;
+}
+
+.glow-moon {
+  top: -10px;
+  height: 350px;
+  position: absolute;
+  width: 1000px;
+}
+
+.partner-div {
+  width: 100vw;
+  height: 100px;
+  top: 734px;
+  left: -15px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: rgba(7, 8, 29, 1);
+}
+
+.partner-div-logo-1 {
+  height: 63px;
+  top: 753px;
+  left: 257px;
+  gap: 0px;
+  opacity: 0px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.partner-div-logo-1 > p {
+  font-family: DM Sans;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 26.82px;
+  text-align: left;
+  color: rgba(235, 231, 229, 0.81);
+}
+
+.partner-div-logo-2 {
+  width: 237px;
+  height: 100px;
+  top: 753px;
+  left: 257px;
+  gap: 0px;
+  opacity: 0px;
+
+  display: flex;
+
+  align-items: center;
+}
+.partner-div-logo-3 {
+  width: 237px;
+  height: 100px;
+  top: 734px;
+  left: 461px;
+  gap: 0px;
+  opacity: 0px;
+
+  display: flex;
+
+  align-items: center;
+}
+.partner-div-logo-4 {
+  width: 237px;
+  height: 100px;
+  top: 734px;
+  left: 719px;
+  gap: 0px;
+  border-radius: 7px 0px 0px 0px;
+  opacity: 0px;
+
+  display: flex;
+
+  align-items: center;
+}
+.partner-div-logo-5 {
+  width: 237px;
+  height: 100px;
+  top: 734px;
+  left: 977px;
+  gap: 0px;
+  opacity: 0px;
+
+  display: flex;
+
+  align-items: center;
+}
+.partner-div-logo-6 {
+  width: 237px;
+  height: 100px;
+  top: 734px;
+  left: 1235px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+
+  align-items: center;
+}
+
+.partner-img-div {
+  width: 55px;
+  height: 63px;
+  top: 753px;
+  left: 257px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.partner-img-div > img {
+  width: 55px;
+  height: 63px;
+  top: 749px;
+  left: 1025px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.partner-name-div {
+  font-family: SF Pro Text;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  padding-left: 20px;
+  color: rgba(255, 255, 255, 0.82);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.partner-name-div > p {
+  margin: 0;
+}
+
+.about-div {
+  height: 600px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about-anime-div {
+  width: 733px;
+  height: 473px;
+  top: 902px;
+  left: 218px;
+  gap: 0px;
+  opacity: 0px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about-content-div {
+  width: 978px;
+  height: 66px;
+  top: 1300px;
+  left: 232px;
+  gap: 0px;
+  opacity: 0px;
+
+  margin: 20px;
+}
+
+.about-content-div > p {
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 33px;
+  text-align: center;
+  color: rgba(195, 195, 195, 0.93);
+}
+
+.about-anime-content {
+  width: 564.08px;
+  height: 52px;
+  top: 902px;
+  left: 218px;
+  padding: 0px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.about-anime-content > p {
+  font-family: DM Sans;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 38.9px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+
+.about-anime-gif {
+  width: 379px;
+  height: 291px;
+  top: 984px;
+  left: 572px;
+  gap: 0px;
+  opacity: 0px;
+
+  margin-top: 50px;
+}
+
+.about-anime-gif > img {
+  width: 379px;
+  height: 291px;
+}
+
+.footer {
+  width: 100vw;
+  height: 519px;
+  top: 8156px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer-inner-div-1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 80vw;
+  height: 248px;
+  top: 8253px;
+  left: 117px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.footer-logo {
+  width: 17%;
+  height: 248px;
+  top: 8253px;
+  left: 117px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.footer-logo > p {
+  font-family: DM Sans;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+
+.footer-company {
+  width: 14%;
+  height: 248px;
+  top: 8253px;
+  left: 453px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.footer-company > p {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+
+.footer-company > ul {
+  list-style-type: none;
+  color: rgba(255, 255, 255, 0.7);
+  padding: 0;
+  margin: 0;
+}
+
+.footer-company > li {
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+}
+
+.footer-service {
+  width: 14%;
+  height: 248px;
+  top: 8253px;
+  left: 623px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.footer-service > p {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+
+.footer-service > ul {
+  list-style-type: none;
+  color: rgba(255, 255, 255, 0.7);
+  padding: 0;
+  margin: 0;
+}
+
+.footer-service > li {
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+}
+
+.footer-products {
+  width: 14%;
+  height: 248px;
+  top: 8253px;
+  left: 862px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.footer-products > p {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+
+.footer-products > ul {
+  list-style-type: none;
+  color: rgba(255, 255, 255, 0.7);
+  padding: 0;
+  margin: 0;
+}
+
+.footer-products > li {
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+}
+
+.footer-contact {
+  width: 14%;
+  height: 248px;
+  top: 8253px;
+  left: 1124px;
+  gap: 0px;
+  opacity: 0px;
+
+  text-align: left;
+}
+
+.footer-contact > p {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.footer-contact > ul {
+  color: rgba(255, 255, 255, 0.7);
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.footer-contact > li {
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.footer-inner-div-2 {
+  margin-top: 50px;
+  width: 1240px;
+  height: 62px;
+  top: 8557px;
+  left: 104px;
+  padding: 0px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  border-top: 1px solid rgba(255, 255, 255, 1);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.7);
+}
+.footer-inner-div-2 > div {
+  width: 60%;
+}
