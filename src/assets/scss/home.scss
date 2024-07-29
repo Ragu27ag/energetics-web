@@ -1,12 +1,368 @@
 @import "constant.scss";
 
-.main-div {
-  background-color: #070a22;
+// @media only screen and (max-width: 600px) {...}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+// @media only screen and (min-width: 600px) {...}
+/* Medium devices (landscape tablets, 768px and up) */
+// @media only screen and (min-width: 768px) {...}
+/* Large devices (laptops/desktops, 992px and up) */
+// @media only screen and (min-width: 992px) {...}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+// @media only screen and (min-width: 1200px) {...}
+
+@media only screen and (max-width: 600px) {
+  /* Extra small devices (phones, 600px and down) */
+  .main-div {
+    background-color: #070a22;
+    position: relative;
+    overflow-x: hidden;
+  }
+
+  .header-div > h3 {
+    width: 80% !important;
+    font-size: 3vh;
+    font-family: DM Sans;
+    line-height: 4.5vh;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    padding-bottom: 2vh;
+  }
+
+  .header-div > h4 {
+    width: 80% !important;
+    font-family: DM Sans;
+    font-size: 1.6vh;
+    font-weight: 400;
+    line-height: 2.5vh;
+    text-align: center;
+    color: rgba(236, 244, 255, 0.6);
+  }
+
+  .get-started {
+    width: 35vw;
+    height: 5vh;
+    padding: 0;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0px;
+    border-radius: 1vh;
+    text-align: center;
+    background: rgba(26, 115, 232, 1);
+  }
+
+  .get-started > button {
+    margin: 0;
+    font-family: DM Sans;
+    background: transparent;
+    font-size: 2vh;
+    font-weight: 500;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    border: 0;
+    outline: 0;
+  }
+
+  .main-body-div2 {
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img-div {
+    padding-top: 30vh;
+    width: 0;
+    height: 0;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .glow-moon {
+    top: 5vh;
+    height: 24vh;
+    position: absolute;
+    width: 100vw;
+  }
+
+  .full-moon {
+    width: 100vw;
+    height: 50vh;
+  }
+
+  .partner-name-div {
+    font-family: SF Pro Text;
+    font-size: 4vw;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    padding-left: 3vw;
+    color: rgba(255, 255, 255, 0.82);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .partner-img-div {
+    width: 8vw;
+    height: 8vh;
+  }
+
+  .partner-img-div > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    opacity: 0px;
+  }
+
+  .partner-div .col {
+    // padding: 0 !important;
+  }
+
+  .partner-div {
+    // width: 100vw;
+    // height: 100px;
+    opacity: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(7, 8, 29, 1);
+  }
+
+  .about-div {
+    // height: 600px;
+    // width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .about-anime-div {
+    width: 100%;
+    opacity: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .about-anime-content {
+    width: 100%;
+    // height: 52px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 5vw;
+    gap: 5vh;
+    line-height: 6vh;
+    opacity: 0px;
+  }
+
+  .type-write {
+    font-size: 3vh;
+    color: #1a73e8;
+  }
+
+  .about-anime-gif {
+    width: 75vw;
+    height: 30vh;
+    margin-top: 7vh;
+  }
+
+  .about-anime-gif > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  /* Extra small devices (phones, 600px and down) */
+}
+
+@media only screen and (min-width: 600px) {
+  .main-div {
+    background-color: #070a22;
+    position: absolute;
+  }
+
+  .header-div > h3 {
+    font-family: DM Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 51.86px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+  }
+
+  .header-div > h4 {
+    font-family: DM Sans;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28.53px;
+    text-align: center;
+    color: rgba(236, 244, 255, 0.6);
+  }
+
+  .get-started {
+    width: 225px;
+    height: 55px;
+    padding: 12px 30px 12px 30px;
+    gap: 10px;
+    opacity: 0px;
+    border-radius: 8px;
+    text-align: center;
+    background: rgba(26, 115, 232, 1);
+  }
+
+  .get-started > button {
+    margin: 0;
+    font-family: DM Sans;
+    background: transparent;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    border: 0;
+    outline: 0;
+  }
+
+  .main-body-div2 {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img-div {
+    padding-top: 250px;
+    width: 900px;
+    height: 300px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .glow-moon {
+    top: -10px;
+    //  height: 350px;
+    position: absolute;
+    width: 1000px;
+  }
+
+  .full-moon {
+    height: 600px;
+    width: 900px;
+  }
+
+  .partner-name-div {
+    font-family: SF Pro Text;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    padding-left: 20px;
+    color: rgba(255, 255, 255, 0.82);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .partner-img-div > img {
+    width: 55px;
+    height: 63px;
+    top: 749px;
+    left: 1025px;
+    gap: 0px;
+    opacity: 0px;
+  }
+
+  .partner-img-div {
+    width: 55px;
+    height: 63px;
+    top: 753px;
+    left: 257px;
+    gap: 0px;
+    opacity: 0px;
+  }
+
+  .partner-div {
+    // width: 100vw;
+    height: 100px;
+    top: 734px;
+    left: -15px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(7, 8, 29, 1);
+  }
+
+  .about-div {
+    height: 600px;
+    // width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .about-anime-div {
+    width: 733px;
+    height: 473px;
+    top: 902px;
+    left: 218px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .about-anime-content {
+    width: 564.08px;
+    height: 52px;
+    top: 902px;
+    left: 218px;
+    padding: 0px;
+    gap: 0px;
+    opacity: 0px;
+  }
+
+  .type-write {
+    font-size: 40px;
+    color: #1a73e8;
+  }
+
+  .about-anime-gif {
+    width: 379px;
+    height: 291px;
+    top: 984px;
+    left: 572px;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: 50px;
+  }
+
+  .about-anime-gif > img {
+    width: 379px;
+    height: 291px;
+  }
 }
 
 .header {
   font-size: $fs-40;
-  width: 100vw;
+  // width: 100vw;
   height: 107px;
   top: -9px;
   left: -17px;
@@ -19,7 +375,8 @@
 }
 
 .inner-header {
-  width: 100vw;
+  // width: 100vw;
+  width: 100%;
   height: 50px;
   top: 26px;
   left: 93px;
@@ -101,18 +458,10 @@
 
 .main-body-1 {
   height: 600px;
-  width: 100vw;
+  // width: 100vw;
 }
 .main-body-div1 {
   height: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.main-body-div2 {
-  height: 50%;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -131,84 +480,6 @@
   justify-content: space-between;
   flex-direction: column;
   align-items: center;
-}
-
-.get-started {
-  width: Fixed (225px) px;
-  height: Fixed (55px) px;
-  top: 368px;
-  left: 608px;
-  padding: 12px 30px 12px 30px;
-  gap: 10px;
-  opacity: 0px;
-  border-radius: 8px;
-  text-align: center;
-  background: rgba(26, 115, 232, 1);
-}
-
-.get-started > p {
-  margin: 0;
-  font-family: DM Sans;
-  font-size: 24px;
-  font-weight: 500;
-  line-height: 30px;
-  text-align: left;
-  color: rgba(255, 255, 255, 1);
-}
-
-.header-div > h3 {
-  font-family: DM Sans;
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 51.86px;
-  text-align: center;
-  color: rgba(255, 255, 255, 1);
-}
-
-.header-div > h4 {
-  font-family: DM Sans;
-  font-size: 22px;
-  font-weight: 400;
-  line-height: 28.53px;
-  text-align: center;
-  color: rgba(236, 244, 255, 0.6);
-}
-
-.img-div {
-  padding-top: 250px;
-  width: 900px;
-  height: 300px;
-  gap: 0px;
-  opacity: 0px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-}
-
-.full-moon {
-  height: 600px;
-  width: 900px;
-}
-
-.glow-moon {
-  top: -10px;
-  height: 350px;
-  position: absolute;
-  width: 1000px;
-}
-
-.partner-div {
-  width: 100vw;
-  height: 100px;
-  top: 734px;
-  left: -15px;
-  gap: 0px;
-  opacity: 0px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background: rgba(7, 8, 29, 1);
 }
 
 .partner-div-logo-1 {
@@ -233,7 +504,7 @@
 }
 
 .partner-div-logo-2 {
-  width: 237px;
+  // width: 237px;
   height: 100px;
   top: 753px;
   left: 257px;
@@ -245,7 +516,7 @@
   align-items: center;
 }
 .partner-div-logo-3 {
-  width: 237px;
+  // width: 237px;
   height: 100px;
   top: 734px;
   left: 461px;
@@ -257,7 +528,7 @@
   align-items: center;
 }
 .partner-div-logo-4 {
-  width: 237px;
+  // width: 237px;
   height: 100px;
   top: 734px;
   left: 719px;
@@ -270,7 +541,7 @@
   align-items: center;
 }
 .partner-div-logo-5 {
-  width: 237px;
+  // width: 237px;
   height: 100px;
   top: 734px;
   left: 977px;
@@ -282,7 +553,7 @@
   align-items: center;
 }
 .partner-div-logo-6 {
-  width: 237px;
+  // width: 237px;
   height: 100px;
   top: 734px;
   left: 1235px;
@@ -293,62 +564,8 @@
   align-items: center;
 }
 
-.partner-img-div {
-  width: 55px;
-  height: 63px;
-  top: 753px;
-  left: 257px;
-  gap: 0px;
-  opacity: 0px;
-}
-
-.partner-img-div > img {
-  width: 55px;
-  height: 63px;
-  top: 749px;
-  left: 1025px;
-  gap: 0px;
-  opacity: 0px;
-}
-
-.partner-name-div {
-  font-family: SF Pro Text;
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 24px;
-  text-align: left;
-  padding-left: 20px;
-  color: rgba(255, 255, 255, 0.82);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .partner-name-div > p {
   margin: 0;
-}
-
-.about-div {
-  height: 600px;
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.about-anime-div {
-  width: 733px;
-  height: 473px;
-  top: 902px;
-  left: 218px;
-  gap: 0px;
-  opacity: 0px;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
 }
 
 .about-content-div {
@@ -371,16 +588,6 @@
   color: rgba(195, 195, 195, 0.93);
 }
 
-.about-anime-content {
-  width: 564.08px;
-  height: 52px;
-  top: 902px;
-  left: 218px;
-  padding: 0px;
-  gap: 0px;
-  opacity: 0px;
-}
-
 .about-anime-content > p {
   font-family: DM Sans;
   font-size: 30px;
@@ -390,24 +597,8 @@
   color: rgba(255, 255, 255, 1);
 }
 
-.about-anime-gif {
-  width: 379px;
-  height: 291px;
-  top: 984px;
-  left: 572px;
-  gap: 0px;
-  opacity: 0px;
-
-  margin-top: 50px;
-}
-
-.about-anime-gif > img {
-  width: 379px;
-  height: 291px;
-}
-
 .footer {
-  width: 100vw;
+  // width: 100vw;
   height: 519px;
   top: 8156px;
   gap: 0px;
@@ -423,7 +614,7 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  width: 80vw;
+  // width: 80vw;
   height: 248px;
   top: 8253px;
   left: 117px;
@@ -599,4 +790,12 @@
 }
 .footer-inner-div-2 > div {
   width: 60%;
+}
+
+.text-para-typewrite {
+  font-family: DM Sans;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 38.9px;
+  text-align: center;
 }
